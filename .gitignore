@@ -1,0 +1,93 @@
+# ============================================
+# CORE SYSTEM FILES – DO NOT TRACK
+# ============================================
+config.php
+config_local.php
+secret.php
+*.env
+*.ini
+*.json
+*.yaml
+
+# ============================================
+# SECURITY / API KEYS 
+# ============================================
+openai_key.php
+api_key.php
+auto_post.php.backup
+api_secrets/
+auto_post_old.php
+*_secret.php
+
+# ============================================
+# USER UPLOADS / GENERATED FILES
+# ============================================
+/uploads/
+/ads.txt
+sitemap.xml
+sitemap_index.xml
+*.csv
+*.pdf
+*.docx
+*.xlsx
+
+# ============================================
+# CACHE / TEMP
+# ============================================
+/cache/
+/tmp/
+/temp/
+/logs/
+*.log
+*.cache
+
+# ============================================
+# SYSTEM / SERVER FILES
+# ============================================
+*.bak
+*.backup
+*.swp
+*.DS_Store
+Thumbs.db
+
+# ============================================
+# COMPOSER / PHP LIBRARIES
+# ============================================
+/vendor/
+/composer.lock
+
+# ============================================
+# ENVIRONMENT SPECIFIC
+# ============================================
+/public_html/error_log
+error_log
+/.idea/
+/.vscode/
+/node_modules/
+
+# ============================================
+# GENERATED CONTENT (AUTOMATICALLY CREATED POSTS)
+# ============================================
+/auto_drafts/
+/generated/
+
+# ============================================
+# CPANEL / SERVER FILES
+# ============================================
+/.svn/
+/.gitignore_backup
+/.cpanel/
+/etc/
+/mail/
+/tmp/
+
+# ============================================
+# IGNORE BACKUPS OF PHP FILES
+# ============================================
+*.php~
+*.php.save
+*.php.old
+*.old
+*.orig
+
+config_local.php
