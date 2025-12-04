@@ -2,7 +2,7 @@
 // auto_post.php
 
 // ---------- SECRET PROTECTION ----------
-$SECRET_KEY = "anavolimilovana"; // ostavi svoj
+$SECRET_KEY = ""; // ostavi svoj
 
 if (!isset($_GET['key']) || $_GET['key'] !== $SECRET_KEY) {
     // Ako je cron job, možda neće koristiti GET, pa dozvoljavamo CLI izvršenje:
@@ -272,5 +272,6 @@ Rules:
 if (!$inserted) {
     echo "Could not generate a unique, non-duplicate post after {$max_attempts} attempts.";
 }
+
 
 $conn->close();
